@@ -1,38 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 .App {
   text-align: center;
+  font-size: 1.7em;
+  font-family: 'VT323', monospace;
+  line-height: 1.1em;
+  background-color: antiquewhite;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.top{
+  background-color: red;
+  margin-bottom: 0.7em;
+  padding: 0.6em;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'VT323', monospace;
+  color: antiquewhite;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button{
+  margin: 1.1em;
+  padding: 0.3em;
+  font-family: 'VT323', monospace;
+  font-size: 0.8em;
+  background-color: red;
+  border: none;
+  color: antiquewhite;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button:hover{
+  background-color: rgb(212, 71, 71);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ash{
+  align-self: center;
+  margin: 3em;
 }
